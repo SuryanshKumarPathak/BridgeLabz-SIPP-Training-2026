@@ -115,7 +115,17 @@ public class Scenario_Based_Question {
 
         // Detect Duplicates
         detectDuplicates(stock);
-        
+
+        int rows=sc.nextInt();
+        int cols=sc.nextInt();
+        int[][] grid = new int[rows][cols];
+        System.out.println("Enter the 2D shelf grid:");
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                grid[i][j] = sc.nextInt();
+            }
+        }
+
         // Transpose 2D Grid
         transpose2DGrid(grid);
 
