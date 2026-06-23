@@ -33,6 +33,8 @@ public class Username_Validator {
         System.out.println("Total characters: " + charCount);
         System.out.println("Uppercase: " + uppercaseUsername);
         System.out.println("Is palindrome: " + isPalindrome);
+
+        scanner.close();
     }
 
     // Method to check if a string is a palindrome
